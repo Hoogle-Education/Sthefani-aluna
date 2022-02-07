@@ -24,7 +24,6 @@ public class Preparation {
 			for(int j = 0; j< 20; j++) {
 				int randomNumber = (int)(Math.random()*count);
 				numbersToSearch[i][j] = mainArray[i][randomNumber];
-				
 			}
 			count += 50;
 		}
